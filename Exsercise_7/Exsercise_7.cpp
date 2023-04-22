@@ -17,11 +17,11 @@ int main()
 		cout << "X1= " << x1 << endl;
 		cout << "X2= " << x2 << endl;
 	}
-	else if (discriminant == 0) { // nếu delta bằng 0
+	else if (discriminant == 0) { //khác => nếu delta bằng 0
 		double x = -b / 2 * a; // x = -b/2a
 		cout << "X= " << x << endl;
 	}
-	else if (discriminant < 0) { //nếu delta bé hơn 0
+	else if (discriminant < 0) { //khác => nếu delta bé hơn 0
 		cout << "Phuong Trinh Vo Nghiem" << endl;
 	}
 }
