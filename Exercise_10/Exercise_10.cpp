@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
+
 //Viết chương trình tìm USCLN và BSCNN. (Viết chương trình có sử dụng hàm).
 int USCLN(int a, int b) { //khai báo hàm tìm ước số chung lơn nhất
 	if (b == 0) { //nếu b bằng 0 thì
