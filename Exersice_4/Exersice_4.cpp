@@ -1,20 +1,21 @@
-// Exersice_4.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
-
+﻿#include <iostream>
+using namespace std;
+//Viết chương trình nhập vào đáy nhỏ, đáy lớn và cạnh hình thang.Sau đó tính  và in ra chu vi, diện tích hình thang đó.
 int main()
 {
-    std::cout << "Hello World!\n";
+	double base1, base2, height, side;//tạo biến đáy nhỏ, đáy lớn, chiều cao và cạnh hình thang
+	cout << "Nhap day nho: ";
+	cin >> base1;
+	cout << "Nhap day lon: ";
+	cin >> base2;
+	cout << "Nhap canh chieu cao: ";
+	cin >> height;
+	cout << "Nhap canh hinh thang: ";
+	cin >> side;
+
+	double perimeter = base1 + base2 + 2* side; //công thức: đáy nhỏ + đáy lớn + (2 nhân cạnh)
+	double area = (base1 + base2) * height / 2; //công thức: (đáy nhỏ + đáy lớn) nhân 1 phần 2 chiều cao
+
+	cout << "Chu Vi Hinh Thang: " << perimeter << endl;
+	cout << "Dien Tich Hinh Thang: " << area << endl;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
