@@ -5,7 +5,7 @@ using namespace std;
 int sum1(int n) {
     int sum = 0;
     for (int i = 1; i <= n; i++) {
-        sum += i;
+        sum += i; //theo công thức: tổng bằng tổng cộng thêm i
     }
     return sum;
 }

@@ -24,11 +24,13 @@ int main()
 	cout << "Nhap Diem Cuoi Ki: ";
 	cin >> finalExam;
 
-	if (coursename == "Thuc Hanh") { //nếu học phần tên là Thuc Hanh
+	if (coursename == "ThucHanh") { //nếu học phần tên là Thuc Hanh
 		finalGrade = midTerm * 0.4 + finalExam * 0.6; //cuối học phần = giữa kì nhân 0.4 + cuối kì nhân 0.6
+		cout << "Thuc Hanh";
 	}
 	else { //nếu không phải Thuc Hanh
 		finalGrade = midTerm * 0.3 + finalExam * 0.7; //cuối học phần = giữa kì nhân 0.3 + cuối kì nhân 0.7
+		cout << "Khong Thuc Hanh";
 	}
 
 	if (finalExam < 0.4) // nếu điểm cuối học phần bé hơn 0.4
@@ -42,6 +44,5 @@ int main()
 		cout << "Lop: " << studentClass << endl;
 		cout << "Ket Qua: " << "Dau: "<< finalExam << endl; //==> Đậu
 	}
-
-
+	return 0;
 }
