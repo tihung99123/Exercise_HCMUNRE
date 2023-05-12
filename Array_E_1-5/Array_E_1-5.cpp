@@ -1,6 +1,9 @@
 ﻿#include <iostream>
 using namespace std;
 
+//Gộp 2 mảng con(Nguyên tố và không nguyên tố; Số chẵn và số lẻ; số âm và số dương).
+
+
 // Hàm sử dụng check số nguyên tố
 bool isPrime(int n) {
     if (n <= 1) {

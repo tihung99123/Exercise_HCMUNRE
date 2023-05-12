@@ -13,7 +13,6 @@ void upper(char s[]) {
     }
 }
 
-
 int main()
 {
     char str[] = "Hello, World!,i'am tihung99123 136";

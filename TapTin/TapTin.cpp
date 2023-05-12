@@ -1,8 +1,8 @@
-﻿#include <direct.h>
-#include<limits.h>
+﻿#include <direct.h> // quên nhiệm vu :v
+#include<limits.h> //tìm limit của đường dẫn hiện tại
 #include<iostream>
-#include <fstream>
-#include <string>
+#include <fstream> // file stream thư viện dùng để tương tác với file
+#include <string> // quá quen thuộc
 
 using namespace std;
 
@@ -16,14 +16,14 @@ string getCurrentDir() { //hàm này tự tạo nên sẽ không có lời giả
 
 int main()
 {
-	ifstream file(getCurrentDir() + "/input.txt");
+	ifstream file(getCurrentDir() + "/input.txt"); // trỏ đến file cần xử lí
 
-	if (!file.is_open()) {
+	if (!file.is_open()) { //nếu file không có thì sẽ output lỗi
 		cerr << "khong mo file duoc (khong co File)" << endl;
 		return 1;
 	}
 
-	string line;
+	string line; 
 	while (getline(file, line)) {
 		cout << line << endl;
 	}

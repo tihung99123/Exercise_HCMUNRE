@@ -2,6 +2,7 @@
 #include <cctype>  // vì viết hoa sẽ dùng đến thư viện này để viết thường từng chữ cái
 
 //Viết hàm lower(char s[]) đổi toàn bộ các ký sang ký tự thường(giống như hàm strlwr)
+using namespace std;
 
 
 void lower(char s[]) {
@@ -15,5 +16,5 @@ void lower(char s[]) {
 int main() {
     char str[] = "Hello, World! I'm TIHUNG99123 from Dev C#,PYTHON,NODEJS,...";
     lower(str);
-    std::cout << str << std::endl; // output => hello, world! i'm tihung99123 from dev c#,python,nodejs,...
+    cout << str << endl; // output => hello, world! i'm tihung99123 from dev c#,python,nodejs,...
 }

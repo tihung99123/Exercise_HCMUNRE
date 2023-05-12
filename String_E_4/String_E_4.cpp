@@ -20,5 +20,5 @@ void proper(char s[]) {
 int main() {
     char str[] = "hello, world! , my name is tihung99123 from vietnam learning university hcm";
     proper(str);
-    cout << str << std::endl; // output => Hello, World! , My Name Is Tihung99123 From Vietnam Learning University Hcm
+    cout << str << endl; // output => Hello, World! , My Name Is Tihung99123 From Vietnam Learning University Hcm
 }

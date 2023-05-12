@@ -24,6 +24,7 @@ tuple<int, int> count_vowels_and_consonants(string s) {
     return { num_vowels, num_consonants }; // trả về hàm để xuất số lượng nguyên âm và phụ âm
 }
 
+
 int main() {
     string s = "tihung99123 la mot thang dev rat oke";
     auto result = count_vowels_and_consonants(s);
